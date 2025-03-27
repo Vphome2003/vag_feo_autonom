@@ -14,7 +14,7 @@ ament_target_dependencies(temperature_monitor rclcpp std_msgs)
 install(TARGETS
   temperature_publisher
   temperature_monitor
-  DESTINATION lib/${PROJECT_NAME}
+  RUNTIME DESTINATION lib/${PROJECT_NAME}
 )
 
 ament_package()
