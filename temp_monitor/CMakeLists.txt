@@ -17,4 +17,9 @@ install(TARGETS
   RUNTIME DESTINATION lib/${PROJECT_NAME}
 )
 
+install(
+  DIRECTORY Launch
+  DESTINATION share/${PROJECT_NAME}
+)
+
 ament_package()
