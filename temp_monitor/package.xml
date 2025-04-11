@@ -3,13 +3,18 @@
   <name>temp_monitor</name>
   <version>0.0.1</version>
   <description>Temperature monitoring package</description>
-  <maintainer email="vago.peter100@gmail.com">Your Name</maintainer>
+  <maintainer email="vago.peter100@gmail.com">Vágó Péter</maintainer>
   <license>Apache-2.0</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 
   <depend>rclcpp</depend>
   <depend>std_msgs</depend>
+
+  <exec_depend>ros2launch</exec_depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
 
   <export>
   </export>
